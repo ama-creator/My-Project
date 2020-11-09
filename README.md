@@ -1,1 +1,1 @@
-#my-project.github.ao
+my-project.github.ao
