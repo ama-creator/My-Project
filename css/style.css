@@ -535,14 +535,40 @@ ul{
     }
 }
 
+
+
+@media only screen and (max-height: 735px) {
+    .header__logo {
+      margin-top: 35vh;
+    }
+  }
+
+  @media only screen and (max-height: 414px) {
+    .header__logo {
+      margin-top: 30vh;
+    }
+    .page__header{
+        height: 155vh;
+    }  
+  }
+
+  @media only screen and (max-height: 375px) {
+    .header__logo {
+      margin-top: 22vh;
+    } 
+    .page__header{
+        height: 168vh;
+    }   
+    .menu{
+        padding-top: 15px;
+    }
+  }
+
 @media (max-width: 374px) {
     .page__header{
         height: 200vh;
     }
 }
-
-
-
 
 
 
